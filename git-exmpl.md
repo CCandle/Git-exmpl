@@ -55,3 +55,11 @@ git push origin main
 ```
 
 这样，github上面就有了我们的本地仓库内容。
+
+
+### 分支管理策略
+通常一个完整的Git开发库一定会有main、develop这两个分支。main只用来发布重大版本，develop用来平时开发使用。
+
+在多人协作时，通常每个人都会有自己的开发分支，在开发取得阶段性成果时，才会merge到develop分支。这能一定程度上保证develop分支不会被打乱，也不会出现冲突。
+
+在develop到一定阶段，可以发布新的软件版本时，通常我们会从develop上新建一个`release-x.x`分支，其中x.x是软件版本。测试团队会在这个分支上进行测试，并且修改可能出现的bug。最后，测试无误后，再把这个分支merge到main与develop上。
