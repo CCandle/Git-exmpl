@@ -30,3 +30,28 @@ git add .
 git commit -m "git-exmpl init"
 ```
 
+这时候我们本地的仓库初始化实际上已经完成了，我们把它放到github上去。
+
+打开github，新建一个repo，名称应该与这个项目名称同名。
+
+![](image/git-exmpl/1636183190066.png)
+
+我们复制项目repo地址
+
+![](image/git-exmpl/1636183353024.png)
+
+在本地仓库连接到远程
+
+```bash
+git remote add origin git@github.com:CCandle/Git-exmpl.git
+```
+
+> origin是github远程仓库在本地的名称，一般默认都叫origin。
+
+然后把本地main分支的内容推到github
+
+```bash
+git push origin main
+```
+
+这样，github上面就有了我们的本地仓库内容。
