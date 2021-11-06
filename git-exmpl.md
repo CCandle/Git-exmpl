@@ -34,11 +34,11 @@ git commit -m "git-exmpl init"
 
 打开github，新建一个repo，名称应该与这个项目名称同名。
 
-![](image/git-exmpl/1636183190066.png)
+![](./image/git-exmpl/1636183190066.png)
 
 我们复制项目repo地址
 
-![](image/git-exmpl/1636183353024.png)
+![](./image/git-exmpl/1636183353024.png)
 
 在本地仓库连接到远程
 
