@@ -65,3 +65,5 @@ git push origin main
 在develop到一定阶段，可以发布新的软件版本时，通常我们会从develop上新建一个`release-x.x`分支，其中x.x是软件版本。测试团队会在这个分支上进行测试，并且修改可能出现的bug。最后，测试无误后，再把这个分支merge到main与develop上。
 
 比如说我在写完这一段之后就发布一个1.1版本。
+
+> 这句话代表release分支上进行的修改
